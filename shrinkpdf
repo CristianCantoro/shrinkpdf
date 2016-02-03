@@ -1,4 +1,7 @@
 #!/bin/bash
+# This program is free and unencumbered software released into the public
+# domain.
+
  
 if [ $# -lt 2 ] || [ $# -gt 3 ]; then
 	echo usage: shrinkpdf \<filename\> \<resolution\> \[\<output\>\]
